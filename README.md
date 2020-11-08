@@ -12,8 +12,10 @@ Using value_count of mouse_id, I identified that mouse with id g989 had more cou
 
 * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 This how summary statistics look like:
-!{image}[]
+![image1](Images/Stats.png)
+
 * Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows  the number of total mice for each treatment regimen throughout the course of the study.
+![image](Images/Stats.png)
 
 * Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
 
