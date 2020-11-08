@@ -11,6 +11,7 @@ Using value_count of mouse_id, I identified that mouse with id g989 had more cou
 
 * Generated a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
 This how summary statistics look like:
+
 ![image1](Images/Stats.png)
 
 * Generated a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows  the number of total mice for each treatment regimen throughout the course of the study.
@@ -29,10 +30,10 @@ This how summary statistics look like:
 ![image5](Images/LineGraph.png)
 
 
-* Generated a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen. Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
+* Generated a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen. Calculated the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
 ![image6](Images/Scatterplot.png)
 
-* 
 
-* Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
+## Observations & Analysis
+This experiment is about experimenting and analyzing the effect of 10 different drugs regimens on mice tumor volume. In this experiment, there are 248 mice of which  49% are female and 51% are male. The drug regimens were given over the course of maximum of 45 days.
