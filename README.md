@@ -4,7 +4,7 @@ I was given access to the complete data from their most recent animal study. In 
 ## Paths for Analysis
 
 
-* Before beginning the analysis, checked the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
+* Before beginning the analysis, checked the data for any mouse ID with duplicate time points and removed any data associated with that mouse ID.
 Using value_count of mouse_id, I identified that mouse with id g989 had more counts than other mice. Therefore, these duplicates were dropped to clean the data.
 
 * Used the cleaned data for the remaining steps.
@@ -16,10 +16,10 @@ This how summary statistics look like:
 * Generated a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows  the number of total mice for each treatment regimen throughout the course of the study.
 ![image2](Images/Bar_Chart1.png)
 
-* Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
+* Generated a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
 ![image3](Images/PieChart.png)
 
-* Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
+* Calculated the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculated the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens. These calculations were later used to generate a box and whisk
 
 * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
