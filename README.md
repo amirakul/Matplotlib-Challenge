@@ -26,11 +26,13 @@ This how summary statistics look like:
 
 
 * Selected a random mouse with id b128 that was treated with Capomulin and generated a line plot of time point versus tumor volume for that mouse.
-![image5](Images/PieChart.png)
+![image5](Images/LineGraph.png)
 
 
-* Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
+* Generated a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen. Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
-* Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
+![image6](Images/Scatterplot.png)
+
+* 
 
 * Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
